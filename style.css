@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    height: 68px;
+}
+
+.header {
+    background: #FDF1EB;
+    height: 68px;
+    
+}
+
+.title {
+    margin-right: 10em;
+    line-height: 1em;
+}
+
+.event-name-anais {
+    font-size: 14px;
+} 
+
+.event-name {
+    font-size: 22px;
+}
+
+.event-issn {
+    font-size: 14px;
+} 
+
+.details {
+    height: 439px;
+    border: solid 1px #ECECEC;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+.universidades {
+    font-size: 12px;
+    color: #5C5C5C;
+}
+
+h2 {
+    
+    color: #ED7839;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+h3, h4, p {
+    color: #5C5C5C;
+}
+
+h4 {
+    padding: 0;
+    line-height: 45px;
+    background: #FDF1EB;
+}
+
+h5 {
+    font-size: 1em;
+    color: #ED7839;
+    font-weight: bold;
+}
+
+.summary {
+    border: solid 1px #ECECEC;
+}
+
+.discussion {
+    border: solid 1px #ECECEC;
+}
+
+.send {
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    color: #ffffff;
+}
+
+.topic-card {
+    border: 1px solid #E7E7E7;
+    
+}
+
+.new-topic {
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ED7839;
+    
+}
+
+.topic-author {
+    font-size: 0.9em;
+}
+
+.sent-topic {
+    border: 1px solid #E7E7E7;
+    background: #ddddddb7;
+}
+
+.aguardando-confirmacao {
+    color: #7070708c;
+    font-weight: 700;
+    font-family: 'quicksand', sans-serif;
+   
+}
+
+.likes-e-respostas {
+    color: #757575;
+ }
+ 
+.answer-card-author {
+   background-color: #F8F8F8; 
+}
+
+.answer-author {
+    font-size: 14px;
+    font-weight: 700;
+    color:#ED7839;
+}
+
+/* -------------- MEDIA QUERIES -------------- */
+
+@media only screen and (max-width: 1233px) {
+
+    .header {
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+    .sidebar {
+      max-width: 80px;
+      
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .login {
+        flex-direction: column-reverse;
+      
+        }
+
+    .logo {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .sidebar p {
+        font-size: 0.65em;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .title {
+        padding: 0;
+        margin: 0;
+    }
+
+    .login-icon {
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo-evento {
+        
+        height: 65px;
+        transform: scale(0.15);
+        margin-top: 0;
+        padding: 0;
+    }
+}
